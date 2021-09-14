@@ -38,6 +38,10 @@ main{
   border-bottom: 1px solid grey;
 }
 
+.bottom-content{
+  padding-bottom: 80px;
+}
+
 .button{
   padding: 10px 0;
 }
@@ -96,7 +100,7 @@ main{
   margin-left: 5px;
 }
 
-.tag-blue, .tag-violet, .tag-orange, .tag-green{
+.tag-blue, .tag-violet, .tag-orange, .tag-green, .tag-pink, .tag-lightgreen{
   display: inline-block;
   width: 70px;
   height: 20px;
@@ -112,7 +116,7 @@ main{
 }
 
 .tag-violet{
-  background-color: violet;
+  background-color: darkmagenta;
 }
 
 .tag-orange{
@@ -121,5 +125,13 @@ main{
 
 .tag-green{
   background-color: green;
+}
+
+.tag-pink{
+  background-color: pink;
+}
+
+.tag-lightgreen{
+  background-color: lightgreen;
 }
 
