@@ -19,3 +19,107 @@ header{
   font-size: 40px;
   font-weight: bold;
 }
+
+main{
+  background-color: rgb(246, 248, 249);
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.top-content, .bottom-content{
+  padding-left: 50px;
+}
+
+.top-content{
+  border-bottom: 1px solid grey;
+}
+
+.button{
+  padding: 10px 0;
+}
+
+#task, #section{
+  padding: 5px;
+  font-size: 10px;
+}
+
+#task{
+  color: white;
+}
+
+#section{
+  color: grey;
+}
+
+.todo-task{
+  padding-top: 40px;
+}
+
+.task-name{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.task-name:before{
+  content: '\25BC';
+}
+
+.task-desc{
+  line-height: 20px;
+  padding: 10px;
+}
+
+.round-green, .round-red{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.round-green{
+  color: green;
+  border: 1px solid green;
+}
+
+.round-red{
+  color: red;
+  border: 1px solid red;
+}
+
+.description{
+  margin-left: 5px;
+}
+
+.tag-blue, .tag-violet, .tag-orange, .tag-green{
+  display: inline-block;
+  width: 70px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.tag-blue{
+  background-color: blue;
+}
+
+.tag-violet{
+  background-color: violet;
+}
+
+.tag-orange{
+  background-color: orange;
+}
+
+.tag-green{
+  background-color: green;
+}
+
