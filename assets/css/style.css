@@ -22,12 +22,13 @@ header{
 
 main{
   height: 100vh;
+  padding-top: 40px;
   background-color: rgb(246, 248, 249);
 }
 
 .container{
   width: 80%;
-  margin: 40px auto;
+  margin: 0 auto;
   background-color: white;
   border-radius: 10px;
 }
@@ -37,32 +38,42 @@ main{
 }
 
 .top-content{
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(246, 248, 249);
 }
 
 .bottom-content{
   padding-bottom: 80px;
 }
 
-.button{
+.button-content{
   padding: 10px 0;
 }
 
-#task, #section{
-  padding: 5px;
+.task, .section{
+  padding: 7px 15px;
   font-size: 10px;
+  border-radius: 5px;
 }
 
 #task{
   color: white;
+  background-color: rgb(31, 162, 243);
+  border: 0px;
 }
 
 #section{
-  color: grey;
+  color: lightgrey;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid lightgrey;
 }
 
 .todo-task{
   padding-top: 40px;
+}
+
+.task-arrow{
+  font-size: 10px;
+  color: black;
 }
 
 .task-name{
@@ -70,19 +81,20 @@ main{
   font-weight: bolder;
 }
 
-.task-name:before{
+/* .task-name:before{
   content: '\25BC';
-}
+} */
 
 .task-desc{
   line-height: 20px;
-  padding: 10px;
+  padding: 10px 10px 10px 0;
 }
 
 .round-green, .round-red{
   display: inline-block;
   width: 20px;
   height: 20px;
+  font-size: 10px;
   line-height: 20px;
   text-align: center;
   border-radius: 50%;
@@ -105,8 +117,8 @@ main{
 .tag-blue, .tag-violet, .tag-orange, .tag-green, .tag-pink, .tag-lightgreen{
   display: inline-block;
   width: 70px;
-  height: 20px;
-  line-height: 20px;
+  height: 25px;
+  line-height: 25px;
   text-align: center;
   font-size: 10px;
   color: white;
