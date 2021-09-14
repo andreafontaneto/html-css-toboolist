@@ -21,13 +21,15 @@ header{
 }
 
 main{
+  height: 100vh;
   background-color: rgb(246, 248, 249);
 }
 
 .container{
   width: 80%;
-  margin: 0 auto;
+  margin: 40px auto;
   background-color: white;
+  border-radius: 10px;
 }
 
 .top-content, .bottom-content{
