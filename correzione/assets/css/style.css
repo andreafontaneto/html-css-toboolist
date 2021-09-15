@@ -27,7 +27,7 @@ header{
 }
 
 main{
-  height: 100vh;
+  height: 100vh; /* da togliere */
   padding-top: 40px;
 }
 
@@ -38,3 +38,77 @@ main{
   border-radius: 10px;
 }
 
+.top{
+  padding: 15px 50px ;
+  border-bottom: 1px solid lightgray;
+}
+
+.btn{
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.btn.task{
+  color: white;
+  background-color: #409CEB;
+  border: 1px solid #409CEB;
+}
+
+.btn.section{
+  color: lightgray;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+.bottom{
+  padding: 50px 50px;
+}
+
+.bottom ul li{
+  list-style: none;
+}
+
+.bottom ul li h3::before{
+  content:'\25BE';
+  padding-right: 10px;
+}
+
+.bottom ul li h3{
+  color: #343840;
+  margin-bottom: 10px;
+}
+
+.bottom li.task{
+  margin-bottom: 30px;
+}
+
+li.task.check::before{
+  content: '\2713';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 15px;
+  color: #59B599;
+  border: 1px solid #59B599;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tag::after{
+  display: inline-block;
+  width: 70px;
+  height: 25px;
+  font-size: 10px;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+li.task.editorial::after{
+  content: "Editorial";
+  background-color: #3D97DC;
+}
